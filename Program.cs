@@ -4,8 +4,8 @@ string[] NewArray = CreateNewArray(ReadyArray, size);
 Console.WriteLine($"[{String.Join(", ", (ReadyArray))}]");
 Console.Write($"[{String.Join(", ", (NewArray))}]");
 
-//метод проверки массива на соответствие условиям
-//возвращаем счетик для нового массива
+//метод проверки массива на соответствие условиям и
+//возврата количества элементов для нового массива
 int GetCountArray(string[] ReadyArray)
 {
     int count = 0;
